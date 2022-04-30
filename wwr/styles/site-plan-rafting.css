@@ -1,29 +1,29 @@
 /* if you are using any Google fonts change the font names below to your fonts. 
 Any spaces in your font name should be replaced with a +. 
 Fonts are separated by a | */
-@import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato');
+@import url("https://fonts.googleapis.com/css?family=Fjalla+One|Muli");
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #396E94   ;
-  --secondary-color: #E7C24F ;
-  --accent1-color: #A42212;
-  --accent2-color: white;
+  --primary-color: #D5F4F3   ;
+  --secondary-color: #DC934C ;
+  --accent1-color: #7EC9BF;
+  --accent2-color: #D5DBAD;
 
   /* change the values below to your chosen font(s) */
-  --heading-font: "IM Fell French Canon SC";
-  --paragraph-font: Lato, Helvetica, sans-serif;
+  --heading-font: "Fjalla One", Arial, sans-serif;
+  --paragraph-font: "Muli", Verdana, sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: #396E94;  /* headlines on a white background */ 
+  --headline-color-on-white: #DC934C;  /* headlines on a white background */ 
   --headline-color-on-color: white; /* headlines on a colored background */ 
-  --paragraph-color-on-white: #396E94; /* paragraph text on a white background */ 
+  --paragraph-color-on-white: black; /* paragraph text on a white background */ 
   --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
-  --paragraph-background-color: #396E94  ;
-  --nav-link-color: #396E94;
-  --nav-background-color: #D4AC0D;
-  --nav-hover-link-color: white;
-  --nav-hover-background-color: #396E94;
+  --paragraph-background-color: #7EC9BF  ;
+  --nav-link-color: #DC934C;
+  --nav-background-color: #D5DBAD;
+  --nav-hover-link-color: #D5DBAD;
+  --nav-hover-background-color: #DC934C;
 }
 
 
@@ -35,6 +35,7 @@ body {
   padding: 4em;
   font-size: 18px;
   text-align: center;
+  background-color:#D5F4F3;
 }
 img {
   display: block;
