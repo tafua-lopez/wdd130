@@ -1,3 +1,10 @@
+@import url("https://fonts.googleapis.com/css?family=Fjalla+One|Muli");
+
+:root {
+--heading-font: "Fjalla One", Arial, sans-serif;
+--paragraph-font: "Muli", Verdana, sans-serif;
+}
+
 #content{
     max-width:1600px;
     margin: 0 auto;
@@ -7,23 +14,34 @@
     width:80px;
 }
 
+#logo-link{
+    padding-top: 5px;
+}
+
 body{
     background-color:#D5F4F3;
+    font-family: var(--paragraph-font);
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+h2{
+    margin: 0;
 }
 
 header nav a{
-    background-color:#7EC9BF;
-    color:#F5FBCD;
+    color:#7EC9BF;
 }
 
 header nav a:hover{
-    background-color:#F5FBCD;
-    color:#7EC9BF;
+    color:#5EA99F;
 }
 
 nav a{
     text-align: center;
     text-decoration: none;
+    padding: 35px;
 }
 
 #hero-img{
@@ -35,6 +53,12 @@ nav a{
     color:#F5FBCD;
 }
 
+.home-title{
+    font-family: var(--heading-font);
+    font-size: 2em;
+    margin-top: 10px;
+}
+
 .button-box{
     text-align: center;
 }
@@ -43,6 +67,10 @@ nav a{
     background-color:#DC934C;
     color:white;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover, .join:hover{
@@ -59,8 +87,21 @@ main section {
     text-align: center;
 }
 
+main section img {
+    box-sizing: border-box;
+}
+
+.rivers-card, .camping-card, .rapids-card{
+    margin:200px 0;
+}
+
+.card-img {
+    border: 10px solid #DC934C;
+}
+
 .icon{
     width: 80px;
+    padding-top: 10px;
 }
 
 #background{
@@ -71,11 +112,27 @@ main section {
 .msg{
     background-color:#7EC9BF;
     color:white;
+    line-height: 1.5em;
+    padding: 35px;
+}
+
+.msg h2{
+    font-family: var(--heading-font);
 }
  
+.msg p{
+    font-size: .8em;
+    padding-bottom: 15px;
+}
 footer{
-    text-align:center;
+    
     color:#7EC9BF;
+    padding: 25px 50px;
+    margin-top: 200px;
+}
+
+footer h3 a:hover{
+    text-decoration: underline;
 }
 
 footer a{
@@ -85,4 +142,8 @@ footer a{
 
 footer a:hover{
     color:#5EA99F;
+}
+
+footer .social img {
+    padding-top: 15px;
 }
