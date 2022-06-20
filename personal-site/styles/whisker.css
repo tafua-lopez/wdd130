@@ -1,0 +1,24 @@
+
+
+img{
+    max-width:400px;
+}
+
+.header-img-banner{
+    background-image:url("/personal-site/images/cat-getting-trimmed.jpg");
+    min-height:500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contact-banner{
+    background-image:url("/personal-site/images/cat-laying.jpg");
+    min-height:400px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
