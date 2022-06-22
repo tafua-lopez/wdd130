@@ -14,7 +14,7 @@ img{
 }
 
 .contact-banner{
-    background-image:url('personal-site/images/cat-laying.jpg');
+    background-image:url("images/cat-laying.jpg");
     min-height:400px;
     background-attachment: fixed;
     background-position: center;
