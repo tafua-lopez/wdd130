@@ -5,7 +5,7 @@ img{
 }
 
 .header-img-banner{
-    background-image:url("/images/cat-getting-trimmed.jpg");
+    background-image:url("images/cat-getting-trimmed.jpg");
     min-height:500px;
     background-attachment: fixed;
     background-position: center;
@@ -14,7 +14,7 @@ img{
 }
 
 .contact-banner{
-    background-image:url('/personal-site/images/cat-laying.jpg');
+    background-image:url('personal-site/images/cat-laying.jpg');
     min-height:400px;
     background-attachment: fixed;
     background-position: center;
