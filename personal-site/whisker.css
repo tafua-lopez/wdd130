@@ -172,7 +172,7 @@ footer div {
 /* ----------------------------------HOME  PAGE------------------------------------ */
 /*----------mission statement----------*/
 div.mission-statement-banner {
-    padding: 20px 0px 30px 0px;
+    padding: 20px 100px 30px 100px;
 }
 
 h3.mission-statement-banner {
@@ -349,7 +349,7 @@ button.gallery:hover {
 }
 
 /* ---------------------------------ABOUT US--------------------------------------- */
-main {
+.main-about {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 100px 50px 1fr 50px 1fr 50px 1fr 50px 1fr;
